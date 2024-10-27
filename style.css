@@ -33,7 +33,7 @@ section{
 
 .presentacion{
     font-size: 5rem;
-    font-family: "Rubik Dirt";
+    font-family: "Rubik Dirt" , cursive;
     color: #ebe6e6;
 }
 
@@ -60,7 +60,7 @@ section{
 
 .titulo{
     font-size: 2rem;
-    font-family: "Rubik Dirt";
+    font-family: "Rubik Dirt", cursive;
    
 }
 
@@ -73,7 +73,7 @@ section{
 .hero-principal p {
     font-size: 2rem;
     color: #ebe6e6;
-    font-family: "Rubik Dirt";
+    font-family: "Rubik Dirt", cursive;
 }
 
 .hero-principal h3{
