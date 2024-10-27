@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Autor del proyecto: " content="Miqueas Uriel Casilli Ingentron">
+    <meta name="Descripcion" content="Proyecto de la pagina oficial de la EESTN1">
+    <meta name="Keywords" content="Programacion, Secundaria,  Tecnica, Informatica, Grand Bourg, EESTN1, CSS, HTML, JavaScript">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="imagenes\icono.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>EESTN1 | Pagina Oficial</title>
+</head>
+<body>
+    <!--barra nav-->
+<div class="fondo-principal">
+  <section>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="imagenes\icono.png" width="50" alt="Logo pagina" class="d-inline-block align-text-center ">
+                    EESTN°1
+                    Grand Bourg
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#modalidades">Modalidades</a>
+                  </li>
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="#autoridades">Autoridades</a>
+                    </li>
+                    
+                  <li class="nav-item">
+                    <a class="nav-link " href="#noticias">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#contacto">Contactos y redes</a>
+                  </li>
+                  
+                </ul>
+                </div>
+        </div>
+    </nav>
+  </section>
+<!--seccion principal con logo-->
+<section class="hero align-items-stretch ">
+  <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+  <img class="hero-imagen-perfil" src="imagenes\icono.png" alt="EESTN1" >
+  <h1 class="presentacion">EESTN1</h1>
+  <p>Grand Bourg</p>
+  <h3>En el ciclo lectivo 1999, junto con el inicio del funcionamiento del nivel Polimodal en todo el ámbito de la Provincia de Buenos Aires, la primera escuela técnica del distrito de Malvinas Argentinas abrió sus puertas</h3>
+  </div>
+</section>
+</div>
+</section>
+<!--carrusel-->
+<section id="modalidades" class="sobremi dark">
+  <div class="contenedor">
+  </div>
+</section>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <a href="informatica.html">
+          <div class="carousel-item active d-item">
+            <img src="imagenes\informatica.jpg" class="d-block w-100 d-img" alt="...">
+            <div class="carousel-caption top-0 mt-4 ">
+              <p class="mt-5 fs-3 text-uppercase">Modalidades</p>
+              <h1 class="texto-informatica display-1 fw-bolder text-capitalize">Informatica</h1>
+            </div>
+          </a>
+          </div>
+          <a href="electronica.html">
+          <div class="carousel-item d-item">
+            <img src="imagenes\electronica.jpg" class="d-block w-100 d-img" alt="...">
+            <div class="carousel-caption top-0 mt-4 ">
+              <p class="mt-5 fs-3 text-uppercase">Modalidades</p>
+              <h1 class="texto-informatica display-1 fw-bolder text-capitalize ">Electronica</h1>
+            </div>
+          </a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+<section id="sobre-mi" class="sobremi dark">
+</section> 
+ <!--autoridades-->
+<section id="autoridades" class="autoridades light">
+  <div id="autoridades-carrusel" class="carousel carousel-dark slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="imagenes\alberto paz.PNG" alt="Foto de geronimo">
+          <p class="testimonio-texto">Alberto Paz, Director de la Escuela Secundaria Técnica N° 1 de Grand Bourg, un referente clave en el ámbito educativo de nuestra comunidad. Con una sólida trayectoria en la enseñanza y una profunda vocación por la educación técnica, el Sr. Paz ha dedicado su carrera a la formación de jóvenes en áreas fundamentales para el desarrollo tecnológico y profesional del país. Bajo su dirección, la escuela ha fortalecido sus programas de formación técnica, impulsando el desarrollo de habilidades que garantizan a los estudiantes una preparación integral para su futuro profesional.</p>
+          <div class="testimonio-info">
+            <p class="cliente">Alberto paz </p>
+            <p class="cargo">DIRECTOR</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="imagenes\daniel paz.PNG" alt="Foto de geronimo">
+          <p class="testimonio-texto">Vicedirector de la Escuela Secundaria Técnica N° 1 de Grand Bourg. Con una amplia experiencia en el ámbito educativo, el Sr. Paz se ha destacado por su incansable labor en favor de la educación técnica, siendo un pilar fundamental en la gestión y desarrollo de la institución.
+
+            En su rol de vicedirector, Daniel Paz se distingue por su capacidad de organización y su enfoque en el bienestar de los estudiantes y el cuerpo docente. Su compromiso con la formación integral de los jóvenes lo ha llevado a impulsar iniciativas que potencian el aprendizaje práctico y teórico, clave para la formación técnica de calidad que caracteriza a la escuela. </p>
+          <div class="testimonio-info">
+            <p class="cliente">Daniel paz </p>
+            <p class="cargo">VICEDIRECTOR</p>
+          </div>
+        </div>
+      </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#autoridades-carrusel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#autoridades-carrusel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+<!--noticias-->
+<section id="noticias" class="proyectos-recientes d-flex flex-column color-noticias">
+  <h2 class="titulo texto-blanco">Noticias</h2>
+  <h3 class="descripcion">Estos son algunas noticas recientes...</h3>
+  <!--galeria proyectos-->
+  <div class="container text-center proyectos-contenedor">
+    <div class="row">
+      <!--noticia 1-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="imagenes\satelite.jpg" alt="noticia 1">
+          <div class="overlay">
+            <p>Alumnos de una escuela de Grand Bourg crearon un satélite</p>
+            <div class="iconos-contenedor">
+               <a href="https://www.clarin.com/zonales/alumnos-escuela-grand-bourg-crearon-satelite-podra-recoger-datos-clima_0_VpmUHO-uG.html?srsltid=AfmBOorqx2NUyhgF4rSPaqxY3gZK6_eGZ6QyS7twikmcbaXsnjbCYNTf" target="_blank" rel="noopener noreferrer"> 
+                <i class="bi bi-newspaper"></i>
+               </a>
+               <a href="https://www.lanoticia1.com/noticia/alumnos-de-escuela-de-grand-bourg-desarrollaron-un-satelite-unico-en-el-pais-114684" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-info-circle"></i>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <!--noticia 2-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="imagenes\aulas.jpg" alt="noticia 2">
+          <div class="overlay">
+            <p>Se inauguró la ampliación de la Escuela Técnica N°1 en Grand Bourg</p>
+            <div class="iconos-contenedor">
+               <a href="https://norteonline.com.ar/malvinas-se-inauguro-la-ampliacion-de-la-escuela-tecnica-n1-en-grand-bourg/" target="_blank" rel="noopener noreferrer"> 
+                <i class="bi bi-newspaper"></i>
+               </a>
+               <a href="https://www.quepasaweb.com.ar/ampliaron-la-escuela-tecnica-n1-de-grand-bourg-con-tres-nuevas-aulas/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-info-circle"></i>  
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <!--proyecto 3-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="proyecto">
+          <img src="imagenes\programacion.jpg" alt="noticia 3">
+          <div class="overlay">
+            <p>Nueva pagina web de la tecnica creada por alumnos de 5to 5ta</p>
+            <div class="iconos-contenedor">
+               <a href="https://norteonline.com.ar/malvinas-se-inauguro-la-ampliacion-de-la-escuela-tecnica-n1-en-grand-bourg/" target="_blank" rel="noopener noreferrer"> 
+                <i class="bi bi-newspaper"></i>
+               </a>
+               <a href="https://www.quepasaweb.com.ar/ampliaron-la-escuela-tecnica-n1-de-grand-bourg-con-tres-nuevas-aulas/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-info-circle"></i>  
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+</section>
+<section id="contacto" class="contacto grey">
+  <div class="container">
+    <div class="container text-center d-flex justify-content-evenly rectangulo">
+      <div class="row">
+        <div class="col-12 col-md-4 titulo">
+          ¡Hablemos!
+        </div>
+        <div class="col-12 col-md-4 descripcion">
+          ¡Contactanos para inscribirte!
+        </div>
+        <div class="col-12 col-md-4 ">
+          <a href="mailto: infotecnica1@tec1gralsanmartin.com">
+            <button type="button">
+              Contacto
+              <i class="bi bi-envelope-check-fill"></i>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--pie de pagina-->
+<footer id="redes" class="grey d-flex flex-column align-items-center justify-content-center">
+  <img class="footer-icono" src="imagenes\icono.png" alt="logo">
+  <p class="footer-texto text-center">Redes sociales.<br>EESTN1</p>
+  <div class="iconos-redes d-flex flex-wrap align-items-center justify-content-center">
+    <a href="https://x.com/EscuelaTec1GB" target="_blank noopener noreferrer">
+      <i class="bi bi-twitter-x"></i>
+    </a>
+    <a href="https://www.instagram.com/tecnica1grandbourg/?hl=es" target="_blank noopener noreferrer">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="https://www.facebook.com/tecnica1grandbourg/?locale=es_LA" target="_blank noopener noreferrer">
+      <i class="bi bi-facebook"></i>
+    </a>
+  </div>
+  <div class="derechos-autor">
+    Creado por Miqueas Casilli, Mauro Abtt, Tiziano Bazan, Thiago Encina, Santiago Herrera, Santiago Rodriguez (2024) &#169;
+  </div>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

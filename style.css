@@ -1,0 +1,472 @@
+
+.fondo-principal{
+    background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)), url("imagenes/fondo.png");
+    height: 641px;
+    background-repeat: no-repeat;
+    background-attachment:scroll ;
+    
+}
+
+.navbar{
+    padding: 2rem;
+    
+}
+
+.navbar-collapse{
+align-items: center;
+justify-content: space-between;
+}
+
+
+.light{
+    color: black;
+    background-color: #f5f6f7;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentacion{
+    font-size: 5rem;
+    font-family: "Rubik Dirt" , cursive;
+    color: #ebe6e6;
+}
+
+.dark{
+    color: #DECDF5;
+    background-color: #1b1b32;
+}
+
+.grey{
+    background-color: #272747;
+    color: #DECDF5;
+
+}
+
+.fondo-patio{
+    background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)), url("imagenes/escuelapatiohd.jpeg");
+    height: 641px;
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll ;
+    color: #ebe6e6;
+    
+}
+
+.titulo{
+    font-size: 2rem;
+    font-family: "Rubik Dirt" , cursive;
+   
+}
+
+.texto{
+    font-size: 1.2rem;
+    color: #f5f6f7;
+}
+
+
+.hero-principal p {
+    font-size: 2rem;
+    color: #ebe6e6;
+    font-family: "Rubik Dirt" , cursive;
+}
+
+.hero-principal h3{
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+
+.sobremi{
+    height: 10px;
+    padding: 10px;
+}
+
+.sobremi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+.d-item{
+    height: 601px;
+}
+
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.autoridades{
+    height: 640px;
+    background-color: rgb(224, 224, 224);
+}
+
+.color-noticias{
+    height: 700px;
+    background-color: #1b1b32;
+    color: #ebe6e6;
+    
+    
+}
+
+.testimonios .carousel{
+    max-width: 800px;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+
+
+.carousel-item .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonio-imagen{
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px
+}
+
+.testimonio-texto{
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.testimonio-info{
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.testimonio-info p{
+    margin-bottom: 0;
+}
+
+.testimonio-footer .cliente{
+    font-size: 1.2rem;
+}
+
+.testimonio-info .cargo{
+    font-size: 0.9rem;
+    color: #615151;
+}
+
+.proyectos-recientes img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15%; /*radio original 10px*/
+    display: block;
+    transition: all 0.2s ease ;
+}
+
+.proyectos-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay{
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50% );
+    text-align: center;
+}
+
+.overlay p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+.proyecto:hover .overlay{
+    opacity: 1;
+}
+
+.proyecto:hover img{
+    opacity: 0.2;
+}
+
+.proyecto{
+    position: relative;
+}
+
+.overlay .iconos-contenedor{
+    display: flex;
+}
+
+.overlay i{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    margin: 10px;
+}
+
+.descripcion{
+    font-size: 1.2rem;
+    color: #978d8d;
+}
+
+.texto-negro{
+    color: black;
+}
+
+.texto-blanco{
+    color: white;
+}
+
+.contacto .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo{
+    margin-top: -5rem;
+    background-color: rgb(13, 110, 253);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button i{
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.contacto button:hover i{
+    color:black
+}
+
+footer{
+    min-height: 500px;
+}
+
+.footer-icono{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: "Quicksand" , sans-serif;
+}
+
+.iconos-redes a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes a:hover{
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes a:hover i{
+    color: black;
+}
+
+.derechos-autor{
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+/*informartica*/
+.informatica-fondo{
+    background: linear-gradient(rgba(5,7,12,0.90),rgba(5,7,12,0.0)),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, #1b1b32 100%), 
+    url("imagenes/informaticafondo.jpeg");
+    height: 641px;
+    background-repeat: no-repeat;
+    background-attachment:scroll ;
+    background-size: cover;
+    
+}
+
+.informatica-fondo2{
+    background: linear-gradient(rgba(5,7,12,0.90),rgba(5,7,12,0.0)),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, #1b1b32 100%), 
+    url("imagenes/electronicafondo.jpg");
+    height: 641px;
+    background-repeat: no-repeat;
+    background-attachment:scroll ;
+    background-size: cover;
+    
+}
+
+.texto-infor{
+    padding-right: 500px;
+}
+
+.tituloinformatica{
+    font-size: 5rem;
+    font-family: "Erica one";
+    margin-left: 425px;
+    margin-top: 125px;
+}
+
+.tituloinformatica2{
+    font-size: 2.5rem;
+    font-family: "Erica one";
+    margin-left: 520px;
+}
+
+.imagencompu{
+    height: 100px;
+    width: 100px;
+    margin-left: 625px;
+}
+
+.descripciongeneral{
+    height: 700px;
+}
+
+.enfoque{
+    padding: 2px;
+    padding-top: 50px;
+
+}
+
+.textoinformaticaabajodetitulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.dark2{
+    color: #DECDF5;
+    background-color: #1b1b32;
+}
+
+
+.lapiz{
+    font-size: 3rem;
+    margin-left: 490px; 
+       
+}
+
+.reloj{
+    font-size: 3rem;
+    margin-left: 285px;  
+    
+}
+
+.luz{
+    font-size: 3rem;
+    margin-left: 650px;  
+    
+}
+
+.lapiz2{
+    font-size: 3rem;
+    margin-left: 382px; 
+       
+}
+
+@media screen and (max-width:767px){
+    .navbar-brand{
+        display:flow-root;
+    }
+    .hero-principal h3{
+        font-size: 10px
+    }
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@media screen and (max-width:400px){
+    .overlay p{
+        font-size: 18px;
+    }
+    .overlay i{
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width:400px){
+    .color-noticias{
+        height: 1000px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .testimonio-imagen{
+        height: 100px;
+        width: 100px;
+    }
+    .testimonio-texto{
+        font-size: 18px;
+    }
+    .testimonio-info{
+        font-size: 7px;
+    }
+}
+
