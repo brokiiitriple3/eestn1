@@ -349,7 +349,12 @@ footer{
 }
 
 .letrasinformatica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    height: 100vh;
 }
 
 .informatica-fondo2{
@@ -396,12 +401,14 @@ footer{
 .tituloinformatica{
     font-size: 5rem;
     font-family: "Erica one";
+    margin: 0;
     
 }
 
 .tituloinformatica2{
     font-size: 2.5rem;
     font-family: "Erica one";
+    margin: 0;
    
     
 }
@@ -409,12 +416,14 @@ footer{
 .titulocentro{
     font-size: 5rem;
     font-family: "Erica one";
+    margin: 0;
     
 }
 
 .titulocentro2{
     font-size: 2.5rem;
     font-family: "Erica one";
+    margin: 0;
     
 }
 
