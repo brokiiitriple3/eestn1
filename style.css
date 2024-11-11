@@ -449,11 +449,14 @@ footer{
     align-items: center;
     text-align: center;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
+.textoinformaticaabajodetitulo{
+    font-size: 3rem;
+}
 
 
 .dark2{
