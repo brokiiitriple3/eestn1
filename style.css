@@ -450,14 +450,7 @@ footer{
     
 }
 
-.textoinformaticaabajodetitulo .i{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font size: 2rem;
-}
+
 
 .dark2{
     color: #DECDF5;
@@ -467,19 +460,31 @@ footer{
 
 .lapiz{
     font-size: 3rem;
-    margin-left: 490px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
        
 }
 
 .reloj{
     font-size: 3rem;
-    margin-left: 285px;  
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
     
 }
 
 .luz{
     font-size: 3rem;
-    margin-left: 650px;  
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
     
 }
 
