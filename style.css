@@ -443,6 +443,10 @@ footer{
 }
 
 .textoinformaticaabajodetitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-weight: bold;
     font-size: 1rem;
@@ -458,41 +462,7 @@ footer{
 }
 
 
-.lapiz{
-    font-size: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-       
-}
 
-.reloj{
-    font-size: 3rem;
-     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;  
-    
-}
-
-.luz{
-    font-size: 3rem;
-     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;  
-    
-}
-
-.lapiz2{
-    font-size: 3rem;
-    margin-left: 382px; 
-       
-}
 
 @media screen and (max-width:767px){
     .navbar-brand{
