@@ -433,7 +433,11 @@ footer{
 }
 
 .descripciongeneral{
-    height: 500px;
+    height: 700px;
+}
+
+.descripciongeneral2{
+    height: 600px;
 }
 
 .enfoque{
